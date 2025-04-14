@@ -1,11 +1,18 @@
 <?php
 
-function loomicodes_css() {
-    wp_register_style('loomicodes-style',
-    get_template_directory_uri() . '/style.css', [], '1.0.0');
-    wp_enqueue_style('loomicodes-style');
+function theme_require_includes($files) {
+    foreach ($files as $file) {
+        $filepath = get_template_directory() . '/' . $file;
+        if (file_exists($filepath)) {
+            require_once $filepath;
+        }
+    }
 }
 
-add_action('wp_enqueue_scripts', 'loomicodes_css');
+theme_require_includes([
+    'inc/menus.php',
+    'inc/theme-setup.php',
+    'inc/enqueue-scripts.php'
+]);
 
 ?>

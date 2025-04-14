@@ -1,0 +1,109 @@
+.site-header {
+    font-family: 'Inter', sans-serif;
+}
+  
+.top-bar {
+    background-color: #163c43;
+    padding: 20px 0;
+    text-align: center;
+}
+  
+.top-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+  
+.top-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#menu-header-superior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#menu-header-superior a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+#menu-header-it-forum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#menu-header-it-forum a{
+    color: #212121;
+    text-decoration: none;
+
+}
+  
+.main-header {
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+}
+  
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0c3c40;
+}
+  
+.main-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+  
+.main-menu li a {
+    text-decoration: none;
+    color: #0c3c40;
+    font-weight: 500;
+}
+
+.header-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.header-menu li {
+    margin-bottom: 5px;
+}
+  
+.link-hit {
+    color: #0073aa;
+    font-weight: bold;
+    margin-right: 15px;
+}
+  
+.btn-login {
+    background-color: #0c3c40;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+  
+.btn-icon {
+    background: none;
+    border: none;
+    font-size: 18px;
+    margin-left: 5px;
+    cursor: pointer;
+}

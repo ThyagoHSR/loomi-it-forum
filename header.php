@@ -7,6 +7,32 @@
 </head>
 <body <?php body_class(); ?>>
 
-<header class="main-header">
+<header class="site-header">
+  <div class="top-bar">
+    <nav class="top-nav">
+      <?php wp_nav_menu([
+              'theme_location' => 'menu_superior',
+              'menu_class'     => 'header-menu',
+              'container'      => false,
+              ]); ?>
+    </nav>
+  </div>
 
+  <div class="main-header">
+    <div class="logo"><a href="<?php echo home_url(); ?>">It<span>forum</span></a></div>
+
+      <nav class="main-nav">
+        <?php wp_nav_menu([
+                'theme_location' => 'menu_header-itforum',
+                'menu_class'     => 'header-menu',
+                'container'      => false,
+                ]); ?>
+      </nav>
+
+    <div class="header-actions">
+      <a href="#" class="btn-login">👤 Login</a>
+      <button class="btn-icon">🔍</button>
+      <button class="btn-icon">☰</button>
+    </div>
+  </div>
 </header>
