@@ -1,0 +1,17 @@
+/*
+Theme Name: Loomi Theme
+Theme URI: https://loomi.digital/
+Author: Thyago Henrique
+Author URI: https://thyagohsr.tech/
+Description: A custom WordPress theme developed for a technical challenge, focusing on clean code, performance, and modular structure.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: loomi-theme
+*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
