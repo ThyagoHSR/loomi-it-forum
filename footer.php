@@ -1,9 +1,3 @@
-<?php
-/**
- * The template for displaying the footer
- */
-?>
-
 <footer class="site-footer">
   <div class="footer-top container">
     <div class="footer-intro">
