@@ -17,7 +17,7 @@
               ]); ?>
     </nav>
   </div>
-
+ <div class="header-container">
   <div class="main-header">
     <div class="logo"><a href="<?php echo home_url(); ?>">It<span>forum</span></a></div>
 
@@ -30,9 +30,10 @@
       </nav>
 
     <div class="header-actions">
-      <a href="#" class="btn-login">👤 Login</a>
+      <a href="#" class="btn-login">Login</a>
       <button class="btn-icon">🔍</button>
       <button class="btn-icon">☰</button>
     </div>
+  </div>
   </div>
 </header>

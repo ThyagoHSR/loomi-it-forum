@@ -5,10 +5,13 @@
 get_header();
 ?>
 
-    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-      <main>
-        <h1 class="teste-css">teste wordpress</h1>
-      </main>
-    <?php endwhile; endif; ?>
+<main class="homepage-container">
+  
+  <h1 class="page-title">Todos os materiais</h1>
+
+  <?php get_template_part('parts/post', 'grid'); ?>
+
+</main>
 
 <?php get_footer(); ?>
+

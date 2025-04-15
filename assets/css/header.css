@@ -47,14 +47,19 @@
 
 }
   
+.header-container{
+    border-bottom: 1px solid #eee;
+}
+
 .main-header {
+    max-width: 1370px;
+    margin:0 auto;
     background: white;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #eee;
 }
   
 .logo a {
@@ -80,10 +85,6 @@
     list-style: none;
     padding: 0;
 }
-
-.header-menu li {
-    margin-bottom: 5px;
-}
   
 .link-hit {
     color: #0073aa;
@@ -93,8 +94,8 @@
   
 .btn-login {
     background-color: #0c3c40;
-    color: white;
-    padding: 8px 16px;
+    color: #fff;
+    padding: 10px 20px;
     border-radius: 20px;
     text-decoration: none;
     margin-right: 10px;
@@ -107,3 +108,66 @@
     margin-left: 5px;
     cursor: pointer;
 }
+
+.main-nav li .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 15px 0;
+    z-index: 999;
+    border-radius: 4px;
+    min-width: 200px;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .main-nav li.menu-item-has-children {
+    position: relative;
+    padding:10px;
+  }
+  
+  .main-nav li.menu-item-has-children:hover .sub-menu,
+  .main-nav li.menu-item-has-children .sub-menu:hover {
+    display: block;
+  }
+  
+  .main-nav li .sub-menu li {
+    padding: 8px 20px;
+    white-space: nowrap;
+  }
+  
+  .main-nav li .sub-menu li a {
+    color: #0c3c40;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  
+  .main-nav li::marker {
+    content: none;
+  }
+  
+  .main-nav li.menu-item-has-children > a::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 6px;
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23000000'><path fill-rule='evenodd' d='M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.23 8.27a.75.75 0 01.02-1.06z' clip-rule='evenodd'/></svg>") no-repeat center;
+    background-size: 20px 20px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+  }
+
+  .main-nav li.menu-item-has-children:hover > a::after {
+    transform: rotate(180deg);
+  }
+  
+  
+  
+  
+  
+  

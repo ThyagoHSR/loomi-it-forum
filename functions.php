@@ -12,7 +12,11 @@ function theme_require_includes($files) {
 theme_require_includes([
     'inc/menus.php',
     'inc/theme-setup.php',
-    'inc/enqueue-scripts.php'
-]);
+    'inc/enqueue-scripts.php',
+    'inc/custom-fields.php',
+    'inc/duplicate-posts.php',
+    'inc/utils.php',
 
+]);
+  
 ?>

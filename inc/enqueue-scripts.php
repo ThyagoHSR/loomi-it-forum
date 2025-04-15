@@ -5,6 +5,7 @@ function loomi_enqueue_assets() {
   wp_enqueue_style('loomi-global', get_template_directory_uri() . '/assets/css/style.css', ['loomi-fonts'], '1.0');
   wp_enqueue_style('loomi-footer', get_template_directory_uri() . '/assets/css/footer.css', ['loomi-global'], '1.0');
   wp_enqueue_style('loomi-header', get_template_directory_uri() . '/assets/css/header.css', ['loomi-global'], '1.0');
+  wp_enqueue_style('loomi-posts-page', get_template_directory_uri() . '/assets/css/posts-page.css', ['loomi-global'], '1.0');
   wp_enqueue_script('loomi-main', get_template_directory_uri() . '/assets/js/main.js', [], '1.0', true);
 }
 
