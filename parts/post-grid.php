@@ -32,9 +32,10 @@ $query = new WP_Query($args);
             <p class="post-time"><?php echo esc_html($tempo); ?> Minutos de Leitura</p>
           <?php endif; ?>
 
-          <p class="post-date">
-            Publicado: <?php echo get_the_date('d/m/Y'); ?> às <?php echo get_the_time('H:i'); ?>
-          </p>
+          <p class="post-author">Autor: <?php the_author(); ?></p>
+            <p class="post-date">Publicado em: <?php echo get_the_date('d/m/Y'); ?> às <?php echo get_the_time('H:i'); ?></p>
+
+
         </a>
       </article>
     <?php endwhile; ?>

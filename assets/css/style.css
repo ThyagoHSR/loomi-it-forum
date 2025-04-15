@@ -102,7 +102,7 @@
   }
   
   .post-title:hover {
-    color: #0073aa;
+    color: #163c43;
   }
   
   .post-excerpt {
@@ -125,7 +125,8 @@
     font-family: 'Inter', sans-serif;
   }
 
-  .post-date {
+  .post-date,
+  .post-author {
     font-size: 13px;
     color: #666;
     font-family: 'Inter', sans-serif;
