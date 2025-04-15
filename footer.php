@@ -1,4 +1,5 @@
 <footer class="site-footer">
+ <div class="footer-container">
   <div class="footer-top container">
     <div class="footer-intro">
       <h2>Conectando a<br>tecnologia e o futuro<br>dos negócios</h2>
@@ -58,6 +59,7 @@
   <div class="footer-bottom container">
     <p>Copyright © 2024 IT FORUM – Todos os Direitos Reservados</p>
   </div>
+ </div>
 </footer>
 
 <?php wp_footer(); ?>

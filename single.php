@@ -15,15 +15,22 @@
       <?php
         $subtitulo = get_post_meta(get_the_ID(), 'meta_subtitulo', true);
         $tempo = get_post_meta(get_the_ID(), 'meta_tempo_leitura', true);
+        $autor = get_the_author();
+        $data_publicacao = get_the_date('d/m/Y');
+        $hora_publicacao = get_the_time('H:i');
       ?>
 
-      <?php if ($subtitulo) : ?>
-        <p class="post-subtitle"><?php echo esc_html($subtitulo); ?></p>
-      <?php endif; ?>
+        <?php if ($subtitulo) : ?>
+            <p class="post-subtitle"><?php echo esc_html($subtitulo); ?></p>
+        <?php endif; ?>
 
-      <?php if ($tempo) : ?>
-        <p class="post-time"><?php echo esc_html($tempo); ?> Minutos de Leitura</p>
-      <?php endif; ?>
+            <div class="post-meta-info">
+            <span class="post-author">Autor: <?php echo esc_html($autor); ?></span>
+            <span class="post-date">Publicado em: <?php echo esc_html($data_publicacao); ?> às <?php echo esc_html($hora_publicacao); ?></span>
+        <?php if ($tempo) : ?>
+            <span class="post-time"><?php echo esc_html($tempo); ?> Minutos de Leitura</span>
+        <?php endif; ?>
+        </div>
 
       <div class="post-content">
         <?php the_content(); ?>

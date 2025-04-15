@@ -1,12 +1,17 @@
 .site-footer {
     background: #121212;
     color: #fff;
-    padding: 70px 90px;
     font-size: 14px;
     font-family: 'Inter', Times, serif;
 }
 
-.footer-top, .footer-middle, .footer-bottom {
+.footer-container {
+    max-width: 1370px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+.footer-top, .footer-middle{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -68,7 +73,7 @@
 
 .footer-bottom {
     border-top: 1px solid #333;
-    padding-top: 10px;
+    padding-top: 30px;
     font-size: 12px;
 }
   

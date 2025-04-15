@@ -71,3 +71,5 @@ document.addEventListener('DOMContentLoaded', function () {
     selectCategory.addEventListener('change', () => loadPosts(true));
   }
 });
+
+

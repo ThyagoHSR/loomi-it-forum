@@ -29,7 +29,7 @@
   }
   
   .post-time {
-    font-size: 14px;
+    font-size: 13px;
     color: #666;
     margin-bottom: 10px;
   }
@@ -111,6 +111,11 @@
     color: #212121;
   }
   
+  .post-meta-info {
+    display: flex;
+    flex-direction: column;
+}
+
   .related-posts-list {
     display: flex;
     flex-wrap: wrap;
