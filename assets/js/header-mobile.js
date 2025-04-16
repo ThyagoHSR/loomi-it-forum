@@ -25,8 +25,8 @@ document.addEventListener("DOMContentLoaded", function () {
   
     parentItems.forEach((link) => {
       link.addEventListener("click", function (e) {
-        e.preventDefault(); // Impede navegação
-  
+        e.preventDefault();
+        
         const parent = this.parentElement;
         parent.classList.toggle("open");
       });

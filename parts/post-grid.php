@@ -23,5 +23,6 @@ $query = new WP_Query($args);
     <button id="load-more" data-page="2">Ver mais</button>
   </div>
 <?php endif; ?>
+<div class="spinner" style="display: none;"></div>
 
 <?php wp_reset_postdata(); ?>

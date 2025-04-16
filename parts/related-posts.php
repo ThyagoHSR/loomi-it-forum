@@ -23,6 +23,9 @@ if ($categories) :
           <?php endif; ?>
           <span class="related-title"><?php the_title(); ?></span>
         </a>
+        <?php if (has_excerpt()) : ?>
+          <div class="post-excerpt"><?php the_excerpt(); ?></div>
+        <?php endif; ?>
       </li>
     <?php endwhile; ?>
   </ul>

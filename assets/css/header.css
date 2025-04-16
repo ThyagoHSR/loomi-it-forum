@@ -126,7 +126,7 @@
   
   .main-nav li.menu-item-has-children {
     position: relative;
-    padding:10px;
+    padding: 10px;
   }
   
   .main-nav li.menu-item-has-children:hover .sub-menu,
