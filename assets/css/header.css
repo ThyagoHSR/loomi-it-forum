@@ -21,33 +21,33 @@
     font-size: 14px;
 }
 
-#menu-header-superior{
+#menu-header-superior {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
 
-#menu-header-superior a{
+#menu-header-superior a {
     color: #fff;
     text-decoration: none;
 
 }
 
-#menu-header-it-forum{
+#menu-header-it-forum {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
 
-#menu-header-it-forum a{
+#menu-header-it-forum a {
     color: #212121;
     text-decoration: none;
 
 }
   
-.header-container{
+.header-container {
     border-bottom: 1px solid #eee;
 }
 
@@ -126,14 +126,14 @@
   
   .main-nav li.menu-item-has-children {
     position: relative;
-    padding: 10px;
+    padding: 10px 0;
   }
   
   .main-nav li.menu-item-has-children:hover .sub-menu,
   .main-nav li.menu-item-has-children .sub-menu:hover {
     display: block;
   }
-  
+
   .main-nav li .sub-menu li {
     padding: 8px 20px;
     white-space: nowrap;
@@ -230,7 +230,7 @@
     color: #0c3c40;
     margin-bottom: 20px;
     cursor: pointer;
-  }
+}
   
   .mobile-menu-overlay {
     position: fixed;
@@ -238,22 +238,22 @@
     background-color: rgba(0,0,0,0.3);
     z-index: 9998;
     display: none;
-  }
+}
   
   .mobile-menu-overlay.active {
     display: block;
-  }
+}
 
 .mobile-menu .main-menu .sub-menu {
     display: none;
     margin-top: 15px;
-  }
+}
   
-  .mobile-menu .main-menu .menu-item-has-children {
+.mobile-menu .main-menu .menu-item-has-children {
     position: relative;
   }
   
-  .mobile-menu .main-menu .menu-item-has-children > a::after {
+.mobile-menu .main-menu .menu-item-has-children > a::after {
     content: '';
     display: inline-block;
     width: 20px;
@@ -263,19 +263,18 @@
     background-size: 20px 20px;
     vertical-align: middle;
     transition: transform 0.3s ease;
-  }
+}
   
-  .mobile-menu .main-menu li {
+.mobile-menu .main-menu li {
     list-style: none;
     margin-bottom: 10px;
-  }
+}
   
-  .mobile-menu .main-menu li.open > .sub-menu {
+.mobile-menu .main-menu li.open > .sub-menu {
     display: block;
-  }
+}
   
-  
-  @media (max-width: 1024px) {
+@media (max-width: 1024px) {
     .main-nav {
       display: none;
     }
@@ -284,12 +283,4 @@
       display: block;
       margin-left: auto;
     }
-  }
-  
-  
-  
-  
-  
-  
-  
-  
+}

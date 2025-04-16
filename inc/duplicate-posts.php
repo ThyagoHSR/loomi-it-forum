@@ -1,5 +1,7 @@
 <?php
 
+// Function to duplicate posts without the need for extra plugins
+
 function loomi_duplicate_post_as_draft() {
     global $wpdb;
   

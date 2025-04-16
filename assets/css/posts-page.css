@@ -5,14 +5,14 @@
     font-family: 'Inter', sans-serif;
   }
   
-  .post-title-blog {
+.post-title-blog {
     font-size: 36px;
     font-weight: bold;
     color: #212121;
     margin-bottom: 20px;
-  }
+}
   
-  .post-thumbnail img {
+.post-thumbnail img {
     max-width: 100%;
     display: block;
     height: 500px;
@@ -21,61 +21,61 @@
     border-radius: 6px;
 }
   
-  .post-subtitle {
+.post-subtitle {
     font-size: 32px;
     font-weight: 500;
     color: #212121;
     margin-bottom: 10px;
-  }
+}
   
-  .post-time {
+.post-time {
     font-size: 13px;
     color: #666;
     margin-bottom: 10px;
-  }
+}
   
-  .post-content {
+.post-content {
     font-size: 16px;
     line-height: 1.7;
     color: #333;
-  }
+}
 
-  .breadcrumb {
+.breadcrumb {
     font-size: 14px;
     color: #212121;
     margin-bottom: 15px;
     font-family: 'Inter', sans-serif;
-  }
+}
   
-  .breadcrumb a {
+.breadcrumb a {
     color: #163c43;
     text-decoration: none;
-  }
+}
   
-  .breadcrumb a:hover {
+.breadcrumb a:hover {
     text-decoration: underline;
-  }
+}
   
-  .breadcrumb span {
+.breadcrumb span {
     color: #212121;
     font-weight: 500;
-  }
+}
 
-  .post-share {
+.post-share {
     margin-top: 40px;
     display: flex;
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
     font-family: 'Inter', sans-serif;
-  }
+}
   
-  .post-share span {
+.post-share span {
     font-weight: 500;
     color: #212121;
-  }
-  
-  .share-icon {
+}
+
+.share-icon {
     width: 36px;
     height: 36px;
     display: inline-flex;
@@ -84,76 +84,75 @@
     border-radius: 50%;
     text-decoration: none;
     transition: opacity 0.3s;
-  }
+}
   
-  .share-icon svg {
+.share-icon svg {
     width: 20px;
     height: 20px;
-  }
+}
   
-  .share-icon.facebook { background-color: #3b5998; }
-  .share-icon.twitter  { background-color: #1da1f2; }
-  .share-icon.linkedin { background-color: #0077b5; }
-  .share-icon.whatsapp { background-color: #25d366; }
+.share-icon.facebook { background-color: #3b5998; }
+.share-icon.twitter  { background-color: #1da1f2; }
+.share-icon.linkedin { background-color: #0077b5; }
+.share-icon.whatsapp { background-color: #25d366; }
   
-  .share-icon:hover {
+.share-icon:hover {
     opacity: 0.8;
-  }
-  
+}
 
-  .related-posts {
+.related-posts {
     margin-top: 60px;
-  }
+}
   
-  .related-posts h3 {
+.related-posts h3 {
     font-size: 20px;
     margin-bottom: 20px;
     color: #212121;
-  }
+}
   
-  .post-meta-info {
+.post-meta-info {
     display: flex;
     flex-direction: column;
 }
 
-  .related-posts-list {
+.related-posts-list {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     list-style: none;
     padding: 0;
     margin: 0;
-  }
+}
   
-  .related-post-item {
-    flex: 1 1 calc(33.33% - 20px); /* 3 por linha com gap */
+.related-post-item {
+    flex: 1 1 calc(33.33% - 20px);
     box-sizing: border-box;
     border-radius: 6px;
     overflow: hidden;
     transition: box-shadow 0.3s ease;
-  }
+}
   
-  .related-post-item a {
+.related-post-item a {
     display: block;
     text-decoration: none;
     color: #212121;
     font-family: 'Inter', sans-serif;
-  }
+}
   
-  .related-thumb {
+.related-thumb {
     width: 100%;
     height: auto;
-  }
+}
   
-  .related-thumb img {
+.related-thumb img {
     width: 100%;
     height: 300px;
     object-fit: cover;
     display: block;
     border-radius: 4px;
-  }
+}
   
-  .related-title {
+.related-title {
     display: block;
     padding: 20px 0px;
     font-size: 16px;
@@ -167,9 +166,9 @@
     margin: 60px auto;
     padding: 0 20px;
     font-family: 'Inter', sans-serif;
-  }
+}
   
-  .category-title {
+.category-title {
     text-align: center;
     font-size: 36px;
     color: #212121;
@@ -177,7 +176,7 @@
     margin-bottom: 40px;
   }
 
-  @media (max-width: 1024px) {
+@media (max-width: 1024px) {
 
     .related-thumb img {
       width: 100%;
@@ -185,10 +184,10 @@
       object-fit: cover;
       display: block;
       border-radius: 4px;
-  }
+    }
 }
 
-  @media (max-width: 767px) {
+@media (max-width: 767px) {
 
     .post-thumbnail img {
       max-width: 100%;
@@ -197,19 +196,19 @@
       object-fit: cover;
       margin-bottom: 20px;
       border-radius: 6px;
-  }
+    }
 
-  .related-posts-list {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    .related-posts-list {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 20px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
 }
-
-  }
   
   
   

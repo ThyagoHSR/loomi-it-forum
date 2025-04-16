@@ -1,5 +1,7 @@
 <?php
 
+// Wordpress Breadcrumbs for posts
+
 function loomi_breadcrumbs() {
     if (is_single()) {
       echo '<nav class="breadcrumb">';
@@ -15,5 +17,4 @@ function loomi_breadcrumbs() {
     }
   }
   
-
 ?>

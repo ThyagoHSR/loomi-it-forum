@@ -9,7 +9,7 @@
     max-width: 1370px;
     margin: 0 auto;
     padding: 50px 20px;
-  }
+}
   
 .footer-top, .footer-middle{
     display: flex;
@@ -77,4 +77,10 @@
     padding-top: 30px;
     font-size: 12px;
 }
-  
+
+@media (max-width: 767px) {
+
+    .footer-intro p {
+        padding-bottom: 20px;
+    }
+}

@@ -1,5 +1,7 @@
 <?php
 
+// News Custom fields for the blog
+
 function loomi_add_custom_meta_box() {
     add_meta_box(
       'loomi_post_info',

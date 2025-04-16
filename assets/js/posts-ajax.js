@@ -1,3 +1,5 @@
+// Ajax post filtering and pagination
+
 document.addEventListener('DOMContentLoaded', function () {
   const loadBtn = document.getElementById('load-more');
   const grid = document.querySelector('.post-grid');
@@ -87,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
           hideLoading();
           updateLoadMoreVisibility(false);
         });
-    }, 200);
+    }, 200); // Charging time
   }
 
   if (loadBtn) {

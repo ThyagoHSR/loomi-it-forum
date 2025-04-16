@@ -1,3 +1,5 @@
+// Script to open and close mobile menu
+
 document.addEventListener("DOMContentLoaded", function () {
     const toggleButton = document.querySelector(".menu-toggle");
     const mobileMenu = document.querySelector(".mobile-menu");

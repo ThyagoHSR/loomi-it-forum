@@ -1,5 +1,7 @@
 <?php
 
+ // Initial settings and support for the wordpress theme.
+
 function loomi_theme_setup() {
   add_theme_support('title-tag');
   add_theme_support('menus');
