@@ -10,13 +10,13 @@ function theme_require_includes($files) {
 }
 
 theme_require_includes([
-    'inc/menus.php',
-    'inc/theme-setup.php',
-    'inc/enqueue-scripts.php',
-    'inc/custom-fields.php',
-    'inc/duplicate-posts.php',
-    'inc/utils.php',
-    'inc/ajax-load-posts.php',
+    '/inc/core/theme-setup.php',
+    '/inc/custom/custom-fields.php',
+    '/inc/custom/duplicate-posts.php',
+    '/inc/support/enqueue-scripts.php',
+    '/inc/support/utils.php',
+    '/inc/support/menus.php',
+    '/inc/ajax/ajax-load-posts.php',
 ]);
   
 ?>
